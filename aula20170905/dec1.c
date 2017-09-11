@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdlib.h>
 int main ()
 {
 	int x;
@@ -7,8 +8,8 @@ int main ()
 	scanf ("%i",&x);
 	
 	if (x%2==0)
-	printf("\par");
-	else printf("\impar");
+	printf("\npar");
+	else printf("\nimpar");
 	
 	if (x%3==0)
 	printf("; mult.3");
@@ -18,7 +19,9 @@ int main ()
 	
 	if (x%7==0)
 	printf("; mult.7");
-	
 
+	printf("\n");
+	
+	system ("pause");
 	return 0;
 }
