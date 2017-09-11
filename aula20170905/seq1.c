@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main ()
 {
@@ -9,7 +10,8 @@ int main ()
 	x=l*l;
 	printf("A area e %d\n",x);
 	
+	system ("pause");
 	return 0;
 
-	
 }
+
