@@ -1,0 +1,15 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main (void)
+{
+    double n, b, l;
+
+    printf("Digite um numero e a base: ");
+    scanf("%lf %lf", &n, &b);
+    l = log10(n)/log10(b);
+    printf("%lf",l);
+    system("pause");
+    return 0;
+}
