@@ -1,18 +1,17 @@
-#include <time.h>
-#include <stdlib.h>
 #include <stdio.h>
-
-int main(void)
-{
-    double p,a;
-    int i, flag;
-    printf("Entre com uma probablidade em numeros decimais: ");
-    scanf("%lf", &p);
-    for (i=0; i<1000; i++)
-        {
-            srand(time(0));
-            a = rand()%2;
-            if(a<p)
-                flag++;
-            }
+#include <time.h>
+int main(){
+	srand(time(0));
+	float p, r;
+	int i, cont=0;
+	printf("Insira um numero de 0 a 1:\n");
+	scanf("%f", &p);
+	for(i =0; i<1000; i++){
+		r = rand()%100;
+		r = r/100;
+		if(r<p)
+			cont++;
+	}
+	printf("\nA quantidade de vezes e: %i", cont);
+	return 0;
 }
