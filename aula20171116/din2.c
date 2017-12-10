@@ -25,7 +25,7 @@ int main(){
 		printf("%d %d", matriz[i], matriz[i+x]);
 		printf("\n");
 		if(matriz[ i ]%y==0)
-			printf("\n"); 
+			printf("\n");
 	}
-	system ("pause");
+	return 0;
 }

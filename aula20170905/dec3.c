@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 #include <time.h>
 
 int main ()
@@ -16,7 +16,7 @@ int main ()
 	if (s==7||s==11)
 		printf ("\nDado 1:%i \nDado 2:%i \nDado 3:%i \nSoma:%i \nGanhou\n", a, b, c, s);
 	else printf ("\nDado 1:%i \nDado 2:%i \nDado 3:%i \nSoma:%i \nPerdeu\n", a, b, c, s);
-	
-	system ("pause");
+
+
 	return 0;
 }

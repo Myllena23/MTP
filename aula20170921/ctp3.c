@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+
 #include<ctype.h>
 
 int main (void)
@@ -17,6 +17,6 @@ int main (void)
     }
 	printf ("%d",flag);
 
-	system ("pause");
+
 	return 0;
 }

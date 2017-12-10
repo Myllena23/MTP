@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main ()
 {
@@ -12,7 +11,6 @@ int main ()
 		y=y*x;
 
 	printf("O resultado do fatorial e %i.", y);
-		
-	system ("pause");
+
 	return 0;
 }

@@ -16,4 +16,5 @@ main(){
 	for(i=0; i<sizeof(str)/sizeof(int); i++){
 		printf("%x ", *(p+i));
 	}
+	return 0;
 }

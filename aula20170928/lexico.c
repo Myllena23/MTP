@@ -1,8 +1,7 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<ctype.h>
 #include<string.h>
-int main (void)
+int main ()
 {
 	char palavras[5][256], aux [256];
 	int i=0,j=0,k=0;
@@ -36,7 +35,6 @@ int main (void)
 
     }
 
-	system ("pause");
 	return 0;
 }
 

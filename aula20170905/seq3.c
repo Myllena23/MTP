@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main ()
 {
@@ -24,8 +23,8 @@ int main ()
 	}while (a<0||a>10||b<0||b>10||c<0||c>10||d<0||d>10||e<0||e>10);
 
 		m = ((a*2)+(b*2)+(c*2)+(d*3)+(e*5))/14;
-	
+
 		printf("\n%f", m);
-	system ("pause");
+
 	return 0;
 }

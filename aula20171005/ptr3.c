@@ -15,4 +15,6 @@ main()
         }
     }
     printf("\n%i", cont);
+
+    return 0;
 }

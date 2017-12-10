@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include<stdio.h>
 #include <math.h>
 
@@ -13,7 +12,6 @@ d = sqrt(pow((x2-x1),2)+pow((y2-y1),2));
 
 printf ("%f",d);
 
-system ("pause");
 return 0;
 
 }

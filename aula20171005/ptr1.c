@@ -11,4 +11,5 @@ main()
         printf ("%p    ", (p+j));
         printf ("%u\n", *(p+j));
     }
+    return 0;
 }

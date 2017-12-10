@@ -1,8 +1,7 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 
-int main (void)
+int main ()
 {
     double b, c, r, a;
     printf("Digite o lado b e o lado c do triangulo e o angulo que eles formam em radianos: ");
@@ -12,6 +11,5 @@ int main (void)
 
     printf("%lf",a);
 
-    system("pause");
     return 0;
 }

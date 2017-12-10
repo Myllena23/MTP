@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+
 #include<ctype.h>
 
 int main (void)
@@ -14,6 +14,6 @@ int main (void)
 		frase[i] = tolower(frase[i]);
 	printf (frase);
 
-	system ("pause");
+
 	return 0;
 }

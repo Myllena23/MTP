@@ -11,5 +11,6 @@ main(){
 		scanf("%d", &str[i]);
 	}
 	p = str;
-	printf("%s ", p );	
+	printf("%s ", p );
+	return 0;
 }
